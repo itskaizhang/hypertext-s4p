@@ -1,0 +1,63 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+/* Media alignment */
+.center {
+    text-align: center;
+    margin-top: 20%;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.center-book {
+    text-align: center;
+    display: block;
+    margin-top: -15%;
+}
+
+.img-center {
+    width: 45%;
+    display: block;
+    margin: 0 auto;    
+    
+}
+
+.contents {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    margin-top: 20%;
+}
+
+.sources {
+    position: absolute;
+    bottom: 20%;
+    right: 50%;
+}
+
+
+.footer {
+    position:absolute;
+    bottom: 5%;
+    right: 50%;
+}
+
+body {
+    font-size: 1.5em;
+}
+
+.hyperspace {
+    background-image: url(https://cdn.mos.cms.futurecdn.net/UsrpRNVxbaHTB76dqvjP3N-1200-80.jpg.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+a:visited {
+    color: blue;
+}
